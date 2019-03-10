@@ -33,9 +33,9 @@ RUN     pip install --user Red-DiscordBot[voice]
 VOLUME  /home/redbot
 CMD     ["/bin/bash"]
 
-LABEL   org.label-schema.name="red-discordbot" \
+LABEL   org.label-schema.name="docker-red-discordbot" \
         org.label-schema.description="Red Discord Bot (V3) packaged as container image" \
-        org.label-schema.version="0.1.0" \
+        org.label-schema.version="0.1.1" \
         org.label-schema.vcs-url="https://github.com/addianto/docker-red-discordbot" \
         org.label-schema.vendor="@addianto" \
         org.label-schema.schema-version="1.0.0-rc1"
